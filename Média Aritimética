@@ -1,0 +1,6 @@
+nome = input("Digite o nome do aluno: ")
+n1 = float(input("Digite a primeira nota do aluno: "))
+n2 = float(input("Digite a segunda nota do aluno: "))
+t = float(input("Digite a nota de trabalho do aluno: "))
+m = (n1+n2+t) /3
+print ("a média do aluno {} é: {} ".format(nome,m))
