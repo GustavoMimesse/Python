@@ -1,0 +1,4 @@
+d = float(input("Digite a distância em metros: "))
+cm = d*100
+mm = d*1000
+print("a distância convertida é igual à {} centimetros, e igual à {} melimetros" .format(cm,mm))
