@@ -1,0 +1,4 @@
+from math import trunc
+num = float(input("Digite um número: "))
+inteiro = trunc(num)
+print("o número {} em sua porção inteira é igual a {}".format(num,trunc(inteiro)))
