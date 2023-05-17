@@ -1,0 +1,24 @@
+# == Igual
+# != Não é igual
+# > = maior que
+# < = menor que
+# >= - Maior ou igual à
+# <= - Menor ou igual à
+#-----------------------------
+operadores = 10 == 10 #True
+print(operadores)
+#-----------------------------
+fruta = "banana" != "Banana" #True
+print(fruta)
+#-----------------------------
+num1 = 10 > 9 #True
+print(num1)
+#-----------------------------
+num2 = 2 < 3
+print(num2) #True
+#-----------------------------
+maior = 10 <= 10
+print(maior) #True
+#-----------------------------
+menor = 9 >= 9
+print(menor) #True
