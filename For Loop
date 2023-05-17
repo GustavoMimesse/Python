@@ -1,0 +1,9 @@
+#range = quantidade de vezes que o for loop vai girar dentro de si mesmo
+#-----------------------
+#imprimir de 1 a 5
+for numero in range(6):
+    print(numero)
+#-----------------------
+#imprimir de 1 a 1000
+for numero2 in range(1001):
+    print(numero2)
