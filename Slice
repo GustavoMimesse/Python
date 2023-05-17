@@ -1,0 +1,10 @@
+#index = 0123456 - com os [] mostra a letra na mesma posicão selecionada
+#valores negativos = mostra de trás para frente
+#valores = transformar em str
+#-------------------------------------
+fruta = "Abacate"
+print(fruta[2:6])
+#-------------------------------------
+valor = 99.75
+valor = str(valor)
+print(valor[2:])
