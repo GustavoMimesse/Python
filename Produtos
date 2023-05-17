@@ -1,0 +1,8 @@
+print("Bem vindo, para que seu produto seja cadastrado em nosso site, ele precisará ter um valor maior ou igual a R$20 e menor que R$40")
+nome = input("Digite seu nome: ")
+produto = input("Digite o nome do seu produto: ")
+valor = int(input("Digite o valor do seu produto: "))
+if 20 <= valor < 40:
+    print("Olá {} seu produto {} foi aceito!".format(nome, produto))
+else:
+    print("Olá {} seu produto {} não foi aceito, pois não está de acordo com uma de nossas regras!".format(nome, produto))
