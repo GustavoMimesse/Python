@@ -1,0 +1,5 @@
+nome = input("Digite seu nome: ")
+idade = int(input("Digite sua idade: "))
+print("Olá {} sua idade é {}".format(nome,idade))
+resultado = "seu voto é permitido" if idade >=16 else "seu voto não é Permitido"
+print(resultado)
