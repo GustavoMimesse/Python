@@ -1,0 +1,7 @@
+def cliente1(nome):
+    print("Olá {}".format(nome))
+def cliente2(nome):
+    return "Olá {}".format(nome)
+
+print(cliente1("Maria"))
+print(cliente2("José"))
