@@ -1,0 +1,7 @@
+valor = 100
+dia = 0
+#while - enquanto
+while valor > 20:
+    dia += 1
+    print("No dia {} o produto vai ser vendido por R${}".format(dia, valor))
+    valor -= 5
