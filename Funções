@@ -1,0 +1,6 @@
+#DRY - Don´t repeat yourself.
+nome = input("Digite seu nome:")
+def boas_vindas():
+    print("Olá {}!".format(nome))
+    print("Temos 5 notebooks em estoque")
+boas_vindas()
