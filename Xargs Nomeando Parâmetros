@@ -1,0 +1,8 @@
+#Criar uma função que armazena números e strings (dados)
+
+def agencia(**carro):
+    return carro
+
+print(agencia(marca="GOL", cor="Branca", motor=1.0, placa=1234))
+print(agencia(marca="GOL", cor="Azul", motor=1.0))
+print(agencia(marca="GOL", cor="Preto"))
