@@ -1,0 +1,8 @@
+#Default = Aquele que você define o valor no parâmetro
+#Non-Default = Aquele que você não define o valor no parâmetro
+
+def boas_vindas(nome, quantidade=6):
+    print("Olá {}".format(nome))
+    print("Temos {} notebooks em estoque".format(quantidade))
+
+boas_vindas("Marcos")
